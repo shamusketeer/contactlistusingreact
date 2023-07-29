@@ -1,0 +1,111 @@
+body{
+    background-color: #b2ff9e;
+}
+.form__Container {
+    form {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        input {
+            width: 20%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+
+
+    }
+
+    .btn {
+        width: 10%;
+        padding: 10px;
+        border:  solid #004b23;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #007200;
+        background: #ccff33;
+        &:hover {
+            background: #fc2f00;
+            color: white;
+            border: solid #b23a48;
+        }
+    }
+
+    .button {
+        position: absolute;
+        right: 10%;
+        top: 10px;
+    }
+}
+
+.data__container {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 10px;
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+
+            th,
+            td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid gray;
+                color: red;
+            }
+
+            th {
+                color: #ffdd00;
+                background-color: #4f772d;
+            }
+
+            .icon {
+                border-radius: 50%;
+                margin: 0 10px;
+                cursor: pointer;
+            }
+
+            .edit__icon {
+                color: white;
+                background: blue;
+
+
+                &:hover {
+                    color: black;
+                    background-color: transparent;
+                    border: 1px solod blue;
+                }
+            }
+
+            .delete__icon {
+                color: white;
+                background: red;
+
+                &:hover {
+                    color: black;
+                    background-color: transparent;
+                    border: 1px solod red;
+                }
+            }
+        }
+    }
+
+
+}
+
+button {
+    padding: 4px 8px;
+}
